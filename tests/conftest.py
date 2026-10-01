@@ -9,3 +9,7 @@ def base_url():
 @pytest.fixture(scope="session")
 def inventory_url():
     return "https://www.saucedemo.com/inventory.html"
+
+@pytest.fixture(scope="session")
+def api_base_url():
+    return "https://jsonplaceholder.typicode.com"
