@@ -16,5 +16,11 @@ pipeline {
                 bat 'venv\\Scripts\\python -m pytest --junitxml=reports\\junit.xml'
             }
         }
+
+        stage('Publish Test Results') {
+            steps {
+                junit 'reports\\junit.xml'
+            }
+        }
     }
 }
