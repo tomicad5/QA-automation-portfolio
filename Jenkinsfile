@@ -13,7 +13,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'venv\\Scripts\\python -m pytest'
+                bat 'venv\\Scripts\\python -m pytest --junitxml=reports\\junit.xml'
             }
         }
     }
