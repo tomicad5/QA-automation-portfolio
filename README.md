@@ -1,5 +1,7 @@
 # QA Automation Portfolio
 
+[![QA Automation Tests](https://github.com/tomicad5/QA-automation-portfolio/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/tomicad5/QA-automation-portfolio/actions/workflows/tests.yml)
+
 A QA automation portfolio project demonstrating UI, API, database, Postman, and CI/CD testing using Python-based tools.
 
 ## Tech Stack
